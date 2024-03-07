@@ -1,9 +1,9 @@
 from binance.client import Client
 import time
 
-variacion = 5
-variacion_100 = 7
-variacionfast = 2
+variacion = 5  # Variacion en los ultimos 30 minutos en porcentaje
+variacion_100 = 7  # Variacion en los ultimos 30 minutos en porcentaje si tiene menos de 100k de volumen
+variacionfast = 2  # Variacion en los ultimos 2 minutos en porcentaje
 
 client = Client('','', tld='com')
 
